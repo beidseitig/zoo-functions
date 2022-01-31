@@ -5,7 +5,7 @@ const { employees } = data;
 function getEmployeeByName(employeeName) {
   // seu código aqui
   const employeeDetails = employees.find((theEmployee) =>
-  (theEmployee.firstName === employeeName || theEmployee.lastName === employeeName));
+    (theEmployee.firstName === employeeName || theEmployee.lastName === employeeName));
 
   if (employeeDetails === undefined) {
     return {};
@@ -14,8 +14,8 @@ function getEmployeeByName(employeeName) {
   return employeeDetails;
 }
 
-console.log(getEmployeeByName('Nelson'))
+console.log(getEmployeeByName('Nelson'));
 
-//Crédito do código ao Allan Carvalho https://github.com/tryber/sd-19-c-project-zoo-functions/pull/1/files
+// Crédito do código ao Allan Carvalho https://github.com/tryber/sd-19-c-project-zoo-functions/pull/1/files
 
 module.exports = getEmployeeByName;
