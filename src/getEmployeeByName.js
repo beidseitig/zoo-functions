@@ -16,4 +16,6 @@ function getEmployeeByName(employeeName) {
 
 console.log(getEmployeeByName('Nelson'))
 
+//Crédito do código ao Allan Carvalho https://github.com/tryber/sd-19-c-project-zoo-functions/pull/1/files
+
 module.exports = getEmployeeByName;
