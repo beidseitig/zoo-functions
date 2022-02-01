@@ -24,4 +24,6 @@ const countAnimals = (animal) => {
 
 console.log(countAnimals());
 
+// Crédito ao código de Adson Reis https://github.com/tryber/sd-19-c-project-zoo-functions/pull/4/files
+
 module.exports = countAnimals;
