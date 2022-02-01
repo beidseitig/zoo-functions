@@ -38,4 +38,6 @@ function getSchedule(scheduleTarget) {
 
 console.log(getSchedule('bears'));
 
+// Crédito ao código original de Adson Reis https://github.com/tryber/sd-19-c-project-zoo-functions/pull/4/files
+
 module.exports = getSchedule;
